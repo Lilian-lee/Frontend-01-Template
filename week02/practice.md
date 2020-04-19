@@ -1,5 +1,5 @@
 ## 编写带括号的四则运算产生式
-    ```
+
     // 0 ~ 9
     <Number> ::= "0" | "1" | "2" | "3" | "4" | ... | "9"
     // 0 | (1~9)(0~9)... eg: 0 | 10 | 200 ...
@@ -15,10 +15,9 @@
     <AdditiiveExpression> ::= <MultiplyExpression> |
         <AdditiiveExpression> "+" <MultiplyExpression> |
         <AdditiiveExpression> "-" <MultiplyExpression>
-    ```
 
 ## 尽可能寻找你知道的计算机语言，尝试把它们分类
-    ```
+
     C 
     C++
     Java
@@ -27,12 +26,10 @@
     Python
     Ruby
     JavaScript
-    ```
 
 ## 写一个正则表达式 匹配所有 Number 直接量
-    ```
+
     var RegExp_Number = '';
-    ```
 
 ## 写一个 UTF-8 Encoding 的函数
 
@@ -51,9 +48,7 @@
         }
         return bytes;
     }
- 
 
 ## 写一个正则表达式，匹配所有的字符串直接量，单引号和双引号
-    ```
+
     var RegExp_String = '';
-    ```
